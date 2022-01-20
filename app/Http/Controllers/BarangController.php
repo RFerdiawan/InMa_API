@@ -23,7 +23,7 @@ class BarangController extends Controller
             'data' => $barang,
         ];
 
-        return response()->json($response, Response::HTTP_OK);
+        return response()->json($barang, Response::HTTP_OK);
     }
 
     /**
@@ -75,7 +75,7 @@ class BarangController extends Controller
             'data' => $barang,
         ];
 
-        return response()->json($response, Response::HTTP_OK);
+        return response()->json($barang, Response::HTTP_OK);
     }
 
     /**
